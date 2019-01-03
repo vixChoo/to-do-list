@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple TODO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   
+		<style>
+				body{
+                    margin: 0 auto;
+                    text-align: center;
+                }
+
+				  #todoList {
+				  	display: inline-block;
+				  }
+        </style>
+
+</head>
+<body>
+    
+			<h1>To Do List:<h1>	
+
+		<input type="text" id="myInput" placeholder="Type Me In...">
+		<button type="button" onclick="todoList()">Add Item</button>
+
+
+    </head>
+    
+	<br>
+	<br>
+
+	<ul id="todoList">
+					 
+					   <li>Learn English!!</li>
+					   <li>Do Codework</li>
+					 
+	</ul>
+
+
+
+<body>	
+
+	<script>
+
+		function todoList(){
+			let input = document.getElementById('myInput').value;
+			let text =  document.createTextNode(input);
+	      	let newItem = document.createElement("li");
+            
+                newItem.appendChild(text);
+
+                if (input == '') {
+                    alert("I asked for a task, not gibberish!");
+                }
+
+                else {
+                    newItem.appendChild(text);
+                    document.getElementById("todoList").appendChild(newItem);
+                }
+                document.getElementById("myInput").value = "";
+            }
+	      		 
+
+        // document.getElementById("myInput").value = "";
+    </script>
+			      
+</body>
+</html>
+
+
+			    
+
+
+
+
+
+
+
+
+
