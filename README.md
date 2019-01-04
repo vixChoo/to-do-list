@@ -28,7 +28,8 @@
 
 ## Elementary To-Do List
 
-![hard](https://user-images.githubusercontent.com/41051826/50640683-827e2580-0fa0-11e9-96cc-c3f95efa6d17.jpg)
+![hardto](https://user-images.githubusercontent.com/41051826/50680522-f96bfa80-1042-11e9-8134-f3dc241000e9.jpeg)
+
 
 
 > #### Which are `todo2.html , style2.css & script2.js`
