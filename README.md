@@ -28,7 +28,8 @@
 
 ## Elementary To-Do List
 
-![hardto](https://user-images.githubusercontent.com/41051826/50680522-f96bfa80-1042-11e9-8134-f3dc241000e9.jpeg)
+![hardto](https://user-images.githubusercontent.com/41051826/50681577-fecb4400-1046-11e9-9b50-27b717b73741.jpg)
+
 
 
 
